@@ -58,5 +58,6 @@ func main() {
 		panic(err)
 	}
 
-	fmt.Println(*token.Token)
+	println("Expires:", token.ExpiresAt.String()) // to stderr
+	fmt.Println(*token.Token)                     // to stdout
 }
