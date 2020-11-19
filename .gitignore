@@ -1,3 +1,5 @@
 *.pem
 github-insttoken
 /dist/
+/.idea
+*.iml
